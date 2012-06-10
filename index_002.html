@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>提示输入框</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="about:blank" content="如果用#则chrome会多请求一次该页面">
+    <!--<script src="log.js" type="text/javascript"></script>-->
+    <script src="../../log.js" type="text/javascript"></script>
+    <script src="suggest.js" type="text/javascript"></script>
+    <link href="suggest.css" rel="stylesheet" type="text/css" />
+<!--    <script src="suggest.out.js" type="text/javascript"></script>-->
+    <style type="text/css">
+        #search
+        {
+            width: 200px;
+            height: 24px;
+            line-height: 24px;
+            font-size: 12px;
+            padding: 3px;
+        }
+        #wrap
+        {
+            margin: 0 auto;
+            width: 500px;
+            padding-top: 200px;
+        }
+    </style>
+    
+</head>
+<body>
+    <!--<form target="_blank" action="index.html" method="get">-->
+    <div>
+        <div id="wrap">
+            <label>
+                input的autoComplete设置为off可以ie不保存输入过的内容</label>
+            <input type="text" id="search" value="" autocomplete="off" />
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+        </div>
+        <div>
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+            <!--<div id="searchList" class="sug-list">
+        </div>-->
+            <br />
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+            <select>
+            </select><select></select><select></select>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <select>
+            </select><select></select><select></select>
+        </div>
+        <input id="search1" type="text" autocomplete="off" />
+        <br />
+        <select>
+        </select><select></select><select></select>
+        <select>
+        </select><select></select><select></select>
+        <select>
+        </select><select></select><select></select>
+        <select>
+        </select><select></select><select></select>
+    </div>
+    <!-- </form>-->
+    <div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        )))))))))))))))))))))))))))))))))))))
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        0000000000000000000000000000000000000000
+    </div>
+    <script type="text/javascript">
+        //var _sugtest = new Suggest();
+        //var _s =new  (Suggest())('search');
+       
+        
+         var _sug = new Suggest('search');
+        //l____o____g000000(_sug.textInput);
+        var _sConfig = {
+            containerwidth: 0,
+            offsettop: 0,
+            //datasource: "http://suggestion.baidu.com/su?p=3&cb=window.bdsug.sug&callback=bdsug.sug",
+            /*buildhtml: function(val) {
+            var html = '';
+            return val;
+            },
+            formatdata: function(val) {
+            var that = this;
+            //l____o____g000000(this.constructor);
+            that._initConfig(_config);
+            },*/
+            datasource: {
+                q: "a",
+                p: true,
+                s: [
+                "aa制生活",
+                "aa制生活全集",
+                "aa制生活在线观看在线观看在线观看在线观看在线观看在线观看在线观看在线观看1111",
+                "a67",
+                "aa制生活剧情介绍",
+                "angelababy",
+                "a67手机电影",
+                "aa", "akb48",
+                "aa制生活百度影音"
+                ]
+            },
+            prefixclass: "s-",
+            styleid: "ggg",
+            oninit: function() {  },
+            onbeforeconstructor: function() {  },
+            onbeforeinit: function() {  },
+            onbeforerequest: function() {  },
+            onrequestload: function() {   },
+            onbeforeselect: function() {  },
+            onbeforeshow: function() {   },
+            onhide: function() {  }
+        };
+        var s = new Suggest('search1', _sConfig);
+        //s._initConfig(_config);
+        s._setCss({ ".s-sug-list-container": "background:green;color:white;" }, s.config.styleid);
+    </script>
+
+    <iframe visible="true"></iframe>
+    http://suggest.taobao.com/sug?callback=KISSY.Suggest.callback&q=a http://suggestion.baidu.com/su?p=3&cb=window.bdsug.sug&callback=bdsug.sug&wd=a
+    http://youa.baidu.com/suggest/se/s?cmd=suggest&type=kwd&max_count=10&callback=suggestCallback&keyword=a
+    back({"result": [["阿", "2967589"], ["阿依莲", "86982"], ["艾格 专柜 正品2012", "27698"],
+    ["阿依莲 正品", "56946"], ["安踏", "534107"], ["阿迪达斯 男鞋", "981078"], ["阿迪达斯 正品", "1542718"],
+    ["adidas", "2177324"], ["阿迪达斯 三叶草", "728155"], ["atm机存钱罐", "1833"]],"cat":[["女装/女士精品","16","阿"],["运动鞋","50010388","阿"]]})
+</body>
+</html>

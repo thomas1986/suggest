@@ -1,0 +1,42 @@
+﻿.sug-list-container
+{
+    border: 1px solid #ccc;
+    background: #fff;
+    z-index: 9999;
+    overflow: hidden;
+}
+.sug-list-content
+{
+    overflow: hidden;
+}
+.sug-list-content ul
+{
+    margin: 0;
+    padding: 0;
+}
+.sug-list-content li
+{
+    cursor: default;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    clear: both;
+    float: left;
+    width: 100%; /*去除se360底部空隙*/
+    overflow: hidden;
+    text-decoration: none;
+    padding: 2px 0 3px 2px;
+    margin: 0;
+}
+.sug-list-container li span.sug-item-key
+{
+    float: left;
+}
+.sug-list-container li span.sug-item-result
+{
+    float: right;
+}
+.sug-list-container .sug-item-selected
+{
+    background: #ddd;
+}
